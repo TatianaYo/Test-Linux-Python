@@ -1,5 +1,6 @@
 from checkout import checkout_negative
 import yaml
+from checkout import ssh_checkout_neg, checkout_positive
 
 
 with open('config.yaml') as f:
